@@ -1,0 +1,37 @@
+/*Box model*/
+.center {
+    margin-left:auto;
+    margin-right: auto;
+}
+.text {
+    position: center;
+}
+body {
+    background-color: rgb(190, 214, 230);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+table, th, td {
+    border-color:rgb(5, 156, 81);
+    border-width: 2px;
+    border-style: solid;
+    border-top: 1px solid rgb(5, 156, 81);
+    border-bottom: 1px solid rgb(5, 156, 81);
+    border-right: 1px solid rgb(5, 156, 81);
+    border-left: 1px solid rgb(5, 156, 81);
+    width: 650px;
+    margin: 0,250,250,10;
+    padding: 15px;
+    text-align: center;
+    empty-cells: hide;
+}
+tr:hover {
+    background-color: rgb(73, 226, 73);
+}
+thead {
+    background-color: rgb(56, 122, 167);
+}
+footer {
+    padding: 25px;
+    color: rgb(150, 10, 143)
+}
